@@ -12,9 +12,19 @@ section {
     width: 50px;
     height: 50px;
 }
-.carousel-control-prev {
-    left: -165px;
+
+:root {
+    --color1: #9b2ece;
+    --color2: #4af190;
 }
-.carousel-control-next {
-    right: -165px;
+header, {
+    padding: 50px 0;
+}
+header, footer {
+    background: #f731f7;
+background: -moz-linear-gradient(left,  #f731f7 0%, #4382ef 100%);
+background: -webkit-linear-gradient(left,  #f731f7 0%,#4382ef 100%);
+background: linear-gradient(to right,  #f731f7 0%,#4382ef 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f731f7', endColorstr='#4382ef',GradientType=1 );
+
 }
