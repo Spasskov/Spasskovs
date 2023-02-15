@@ -12,19 +12,16 @@ section {
     width: 50px;
     height: 50px;
 }
-
 :root {
     --color1: #9b2ece;
-    --color2: #4af190;
+    --color2: #316be9;
 }
-header, {
-    padding: 50px 0;
-}
+
 header, footer {
-    background: #f731f7;
-background: -moz-linear-gradient(left,  #f731f7 0%, #4382ef 100%);
-background: -webkit-linear-gradient(left,  #f731f7 0%,#4382ef 100%);
-background: linear-gradient(to right,  #f731f7 0%,#4382ef 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f731f7', endColorstr='#4382ef',GradientType=1 );
+    background: var(--color1);
+background: -moz-linear-gradient(left,  var(--color1) 0%, var(--color2) 100%);
+background: -webkit-linear-gradient(left,  var(--color1) 0%,var(--color2) 100%);
+background: linear-gradient(to right,  var(--color1) 0%,var(--color2) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color1), endColorstr=var(--color2),GradientType=1 );
 
 }
