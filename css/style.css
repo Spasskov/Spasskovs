@@ -1,3 +1,6 @@
+.body {
+    margin: 0;
+    }
 section {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -31,7 +34,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color1),
 
 }
 .intro {
-    max-height: 93vh;
+    max-height: 100vh;
     overflow: hidden;
 }
 .intro:after {
